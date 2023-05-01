@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.swiper-content .title {
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 1);
+}
+
+.swiper-content .tag {
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 1);
+}
+
+.swiper-content .disc {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.swiper-content .btn-wrap {
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 1);
+}
