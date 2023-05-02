@@ -179,23 +179,23 @@ svg {
 
 :root,
 [data-theme=light] {
-  --color-primary-darker: hsl(12, 85%, 46%);
+  --color-primary-darker: hsl(130, 49%, 59%);
   --color-primary-darker-h: 12;
   --color-primary-darker-s: 85%;
   --color-primary-darker-l: 46%;
-  --color-primary-dark: hsl(12, 85%, 52%);
+  --color-primary-dark: hsl(130, 49%, 59%);
   --color-primary-dark-h: 12;
   --color-primary-dark-s: 85%;
   --color-primary-dark-l: 52%;
-  --color-primary: hsl(12, 85%, 58%);
+  --color-primary: hsl(130, 49%, 59%);
   --color-primary-h: 12;
   --color-primary-s: 85%;
   --color-primary-l: 58%;
-  --color-primary-light: hsl(12, 85%, 64%);
+  --color-primary-light: hsl(130, 49%, 59%);
   --color-primary-light-h: 12;
   --color-primary-light-s: 85%;
   --color-primary-light-l: 64%;
-  --color-primary-lighter: hsl(12, 85%, 70%);
+  --color-primary-lighter: hsl(130, 49%, 59%);
   --color-primary-lighter-h: 12;
   --color-primary-lighter-s: 85%;
   --color-primary-lighter-l: 70%;
@@ -337,23 +337,23 @@ body,
 
 @supports (--css: variables) {
   [data-theme=dark] {
-    --color-primary-darker: hsl(12, 85%, 46%);
+    --color-primary-darker: hsl(130, 49%, 59%);
     --color-primary-darker-h: 12;
     --color-primary-darker-s: 85%;
     --color-primary-darker-l: 46%;
-    --color-primary-dark: hsl(12, 85%, 52%);
+    --color-primary-dark: hsl(130, 49%, 59%);
     --color-primary-dark-h: 12;
     --color-primary-dark-s: 85%;
     --color-primary-dark-l: 52%;
-    --color-primary: hsl(12, 85%, 58%);
+    --color-primary: #4ac574;
     --color-primary-h: 12;
     --color-primary-s: 85%;
     --color-primary-l: 58%;
-    --color-primary-light: hsl(12, 85%, 64%);
+    --color-primary-light: hsl(130, 49%, 59%);
     --color-primary-light-h: 12;
     --color-primary-light-s: 85%;
     --color-primary-light-l: 64%;
-    --color-primary-lighter: hsl(12, 85%, 70%);
+    --color-primary-lighter: hsl(130, 49%, 59%);
     --color-primary-lighter-h: 12;
     --color-primary-lighter-s: 85%;
     --color-primary-lighter-l: 70%;
@@ -10434,7 +10434,8 @@ body.index-two[data-footer-effect=on] {
 
 .ms-main .portfolio-banner .portfolio-banner-inner .banner-content .sub-title {
   margin-bottom: 20px;
-  color: #EF5D39;
+  color: hsl(130, 49%, 59%);
+  ;
   font-size: 36px;
   font-weight: bold;
 }
